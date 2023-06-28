@@ -1,0 +1,17 @@
+{
+  "name": "terraform",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+  },
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "4ops.terraform",
+        "EditorConfig.EditorConfig",
+      ]
+    }
+  },
+}
